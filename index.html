@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--1.	En la cabecera, incluye el archivo bootstrap.min.css incluido en el apartado Archivos adjuntos del proyecto.
+    2.	En el cuerpo del documento, incluye el bundle de Bootstrap que encontrarás en el apartado Archivos adjuntos.-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Ecommerce - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <!--Crea un header en donde coloques el título de la tienda con h1. -->
+        <!--Crea un span para el título Tienda Muebles y aplícale el color #037BC0 a la palabra Muebles-->
+        <h1 style="text-align:center;">Tienda de <span style="color:#037bc0; font-size: 3rem;"> Muebles</span></h1>
+
+        <!--Crea la barra de navegación (nav) con al menos cinco opciones. Se sugiere que esas  opciones sean Inicio, Nosotros, Tienda, Blog, Galería y Contacto.-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex align-items-center" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <!--Crea un div para la sección hero.
+    Importa las fuentes Playfair y Relaway de Google FontSync. Productos
+    Coloca el título de la sección con h2.
+    Utiliza la etiqueta para crear la sección principal de la página y crea la estructura  solicitada en la imagen maqueta.jpg con divs.-->
+
+    <section id="hero">
+        <div class="herocontainer">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h2 style="font-size:4vw">Colección 2024</h2>
+                    <p style="font-size: 2vw;">Ven y conoce lo mas novedoso en muebles</p>
+                    <button>Catafíxialos</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--Contenido-->
+ <main class="Main-contenido"> 
+    <h2 class="segundo-titulo" >Nuestros Productos</h2>
+
+      <div class="lista-de-productos">
+        <div class="productos">
+          <img src="producto1.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 1</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+
+        <div class="productos">
+          <img src="producto2.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 2</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+
+        <div class="productos">
+          <img src="producto3.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 3</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+        <div class="productos">
+          <img src="producto4.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 4</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+        <div class="productos">
+          <img src="producto5.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 5</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+        <div class="productos">
+          <img src="producto6.jpg">
+                <div class="Producto-texto">
+                    <h2 class="tamañoproductos">PRODUCTO 6</h2>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto</p> 
+                    <p class="dinero">12.000.00</p>
+                    <a class="boton" href="#">Agregar al carrito</a>
+                </div>
+        </div>
+      </div>
+</main>
+
+<!--categorias-->
+
+<section class="container-xl">
+<h2 class="text-center">Categorias de Productos</h2>
+<div class="lista-categorias overflow-hidden">
+ 
+      <div class="categorias">
+      <img src="categoria1.jpg" alt="oficina" class="img-fluid img-grow">
+      <a href="#">Oficina</a>
+      </div>
+
+      <div class="categorias">
+      <img src="categoria2.jpg" alt="hogar" class="img-fluid img-grow">
+      <a href="#">Hogar</a>
+      </div>
+
+      <div class="categorias">
+      <img src="categoria3.jpg" alt="cocina" class="img-fluid img-grow">
+      <a href="#">Cocina</a>
+      </div>
+  
+    
+</div>
+</section>
+
+
+<footer class="elfooter">
+<div class="contenedor-footer">
+    <div >
+        <h3>Categorías</h3>
+
+          
+            <p> <a  class="text-decoration-none"href="#">Cocina</a></p>
+            <p><a  class="text-decoration-none"href="#">Oficina</a></p>
+            <p><a  class="text-decoration-none"href="#">Jardín</a></p>
+            <p><a  class="text-decoration-none"href="#">Cochera</a></p>
+            <p><a  class="text-decoration-none"href="#">Dormitorios</a></p>
+          
+    </div>
+
+    <div>
+        <h3>Sobre Nosotros</h3>
+
+        
+          <p> <a  class="text-decoration-none"href="#">Nuestra Historia</a></p>
+          <p><a  class="text-decoration-none"href="#">Misión, Visión y Valores</a></p>
+          <p><a  class="text-decoration-none"href="#">Carreras</p>
+          <p><a  class="text-decoration-none"href="#">Política de Privacidad</a></p>
+          <p><a  class="text-decoration-none"href="#">Términos del Servicio</a></p>
+        
+    </div>
+
+    <div >
+        <h3 class="Soportes">Soportes</h3>
+
+        <p><a  class="text-decoration-none"href="#">Preguntas Frecuentes</a></p>
+        <p><a  class="text-decoration-none"href="#">Ayuda en linea</a></p>
+        <p><a  class="text-decoration-none"href="#">Confianza y Seguridad</a></p>
+    </div>
+    
+</div>
+<p class="copyright">Todos los derechos reservados - Tienda Muebles</p>
+</footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
